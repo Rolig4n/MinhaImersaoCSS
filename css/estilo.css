@@ -1,0 +1,33 @@
+﻿body {
+  background-image: url(https://image.freepik.com/fotos-gratis/textura-gradiente-azul-e-escura-e-fundo-da-parede_28629-888.jpg);
+  background-size: 100vh 50px;
+  height: 100vh;
+  font-family: Calibri;
+}
+
+.menu {
+  background-color: lightgray;
+}
+.menu ul{
+  display: flex;
+  justify-content: space-around;
+}
+.menu li{
+  list-style: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+.site-subtitle, .site-title {
+  color: lightgray;
+  text-align: center;
+}
+.site-subtitle{
+  font-style: italic;
+}
