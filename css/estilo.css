@@ -8,7 +8,8 @@ body {
   background-image: url('https://image.freepik.com/fotos-gratis/textura-gradiente-azul-e-escura-e-fundo-da-parede_28629-888.jpg');
   background-size: 100vw 50px;
   height: 100vh;
-  font-family: Calibri;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
   font-size: 12px;
 }
 
@@ -37,49 +38,91 @@ header {
   }
 }
 
-
 .menu {
   background-color: white;
   position: fixed;
   width: 100vw;
   top: 0;
 }
-.menu ul{
+.menu ul {
   display: flex;
   justify-content: space-around;
 }
-.menu li{
+.menu li {
   list-style: none;
 }
 .menu a {
   display: block;
   padding: 10px;
+  color: black;
   font-size: medium;
   transition-duration: 0.5s;
   transition-delay: 0.1s;
 }
-.menu a:hover{
+.menu a:hover {
   font-size: large;
   transition-duration: 0.5s;
   transition-delay: 0.1s;
 }
 
 a {
+  color: rgb(29, 82, 82);
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: teal;
 }
 
 .site-subtitle, .site-title {
-  color: white;
   text-align: center;
 }
-.site-subtitle{
+.site-title {
+  font-size: 4em;
+  font-family: 'Amatic SC', cursive;
+}
+.site-subtitle {
+  font-family: 'Baloo Chettan 2', cursive;
   font-style: italic;
+  line-height: 1em;
+}
+
+.portifolio {
+  background-color: rgba(0, 0, 0, 0.30);
+  padding: 0.8em;
+  height: 100vh;
+}
+.portifolio h2 {
+  margin-bottom: 0.5em;
+  font-family: 'Baloo Chettan 2', cursive;
+}
+.portifolio .grid {
+  display: grid;
+  gap: 1em;
+}
+
+@media(min-width: 560px) {
+  .portifolio .grid {
+    grid-template-columns: 400px;
+  }
+}
+@media(min-width: 960px) {
+  .portifolio .grid {
+    grid-template-columns: 400px 400px;
+  }
+}
+@media(min-width: 1360px) {
+  .portifolio .grid {
+    grid-template-columns: repeat(3, 400px);
+    height: calc(100vh - 1.6em - 0.5em - 1em);
+    align-content: center;
+    justify-content: center;
+  }
 }
 
 .img-portfolio {
   height: 180px;
-  width: 180px;
+  width: 320px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 10px;
 }
