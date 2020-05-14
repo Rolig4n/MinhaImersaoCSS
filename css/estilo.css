@@ -20,6 +20,18 @@ header {
   align-items: center;
 }
 
+hr {
+  background-color: white;
+  border-radius: 50%;
+  height: 0.6%;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
 @media (min-width: 480px) {
   body {
     font-size: 18px;
@@ -39,10 +51,11 @@ header {
 }
 
 .menu {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   width: 100vw;
   top: 0;
+  z-index: 1;
 }
 .menu ul {
   display: flex;
@@ -54,23 +67,27 @@ header {
 .menu a {
   display: block;
   padding: 10px;
-  color: black;
-  font-size: medium;
+  color: white;
+  font-size: 1em;
   transition-duration: 0.5s;
   transition-delay: 0.1s;
 }
 .menu a:hover {
-  font-size: large;
-  transition-duration: 0.5s;
-  transition-delay: 0.1s;
+  font-size: 1.2em;
+  text-shadow: 0px 0px 10px rgb(0, 255, 255);
 }
 
-a {
-  color: rgb(29, 82, 82);
-  text-decoration: none;
+.titulo {
+  transform: scale(0.95);
+  opacity: 0;
+  animation: linear 2s animaTitulo forwards;
 }
-a:hover {
-  color: teal;
+
+@keyframes animaTitulo {
+  100%{
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 .site-subtitle, .site-title {
@@ -86,12 +103,15 @@ a:hover {
   line-height: 1em;
 }
 
+.contato,
 .portifolio {
   background-color: rgba(0, 0, 0, 0.30);
   padding: 0.8em;
-  height: 100vh;
+  min-height: 100vh;
 }
+.contato h2,
 .portifolio h2 {
+  margin-top: 25px;
   margin-bottom: 0.5em;
   font-family: 'Baloo Chettan 2', cursive;
 }
@@ -125,4 +145,23 @@ a:hover {
   object-fit: cover;
   object-position: top;
   border-radius: 10px;
+  transition: transform 0.5s;
+}
+.img-portfolio:hover {
+  transform: scale(1.1);
+}
+
+.contato a {
+  color: white;
+  font-size: 2em;
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+}
+.contato a:active,
+.contato a:hover {
+  font-size: 2.5em;
+  text-shadow: 0px 0px 10px rgb(0, 255, 255);
+}
+.contato .icons {
+  text-align: center;
 }
