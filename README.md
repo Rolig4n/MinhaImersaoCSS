@@ -7,4 +7,6 @@ imagens exemplo adicionadas, melhoras no visual no menu e links, responsibilidad
 Versão 0.1.2-13/05/2020 <br>
 adicionadas novas fontes para titulo, subtitulo e texto corrido, melhorias na parte do portifólio, adicionado <i>grids</i><br>
 Versão 0.1.3-14/05/2020 <br>
-adicionado seção para contato, adicionado animações, melhoras no visual do menu, adicionado biblioteca de icones 
+adicionado seção contato, adicionado animações, melhoras no visual do menu, adicionado biblioteca de icones <br>
+Versão 0.1.4-15/05/2020 <br>
+adicionado seção sobre, adicionado foto de perfil, adicionado nova animação teste para o portifólio, mudanças no link de texto corrido.
