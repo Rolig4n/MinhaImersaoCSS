@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="menu">
-            <ul>
+            <ul class="container">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#portifolio">Portifólio</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -28,36 +28,94 @@
         </div>
     </header>
     <hr>
-    <section class="portifolio" id="portifolio">
-        <h2>Portfólio</h2>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="perfil">
+            <img src="img/perfil.jpg" alt="imagem de perfil">
+        </figure>
         <p>
-            <a href="#">aaaaaaaaaa</a>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quo reprehenderit accusamus quae reiciendis
+            maiores optio modi odio deserunt autem ea mollitia nemo consequatur laudantium voluptatem, explicabo
+            repudiandae aperiam quas.
+            Omnis, laboriosam accusamus voluptates optio non sit nam rerum reprehenderit, voluptas mollitia recusandae
+            blanditiis similique libero voluptatem perferendis hic saepe illum ipsa placeat eveniet, totam modi maxime!
+            Corporis, minus odio.
+            Blanditiis temporibus architecto nemo iure rerum nulla qui cupiditate quas dignissimos sed numquam harum
+            corrupti, veniam quos quia vero praesentium, quae consequuntur voluptatum eius ducimus a. Soluta ut vero
+            non.
         </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo asperiores numquam totam omnis! Nam incidunt
+            unde, quae, nulla, at quas accusantium ducimus quo placeat debitis magnam architecto dignissimos officia
+            recusandae.
+            Vero, deleniti! Perspiciatis accusantium, accusamus nostrum vitae sapiente earum officiis deserunt cum
+            reprehenderit expedita velit veniam vero, placeat dolor fugit quaerat eveniet recusandae commodi. Doloremque
+            fuga vitae commodi mollitia rerum.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet beatae nulla error qui voluptates
+            temporibus modi suscipit, eum unde laborum ab. Iste totam assumenda maiores distinctio atque.
+            Exercitationem, laudantium atque.
+            Sint maiores est maxime officia reprehenderit eligendi veritatis expedita cumque voluptatum! Accusamus
+            magnam veniam dolores porro iste laboriosam adipisci suscipit illum distinctio hic quo beatae exercitationem
+            deserunt aut, ducimus doloribus.
+            Placeat magnam laudantium at dolores aspernatur culpa doloremque quaerat commodi error provident animi
+            veniam maiores non inventore corrupti reiciendis vitae ut nisi, doloribus esse veritatis enim perspiciatis
+            eos fuga. Doloremque?
+            Voluptatum, rem illo pariatur reiciendis eligendi eos voluptatibus exercitationem adipisci! Eaque, nostrum.
+            Numquam sequi quod adipisci rem quaerat enim odit est aut ad. Ea ratione id voluptatibus amet voluptatem
+            eius.
+        </p>
+        <p>
+            Esse site foi criado durante a <a href="https://www.alura.com.br/imersao-css" target="_blank">Imerção
+                CSS</a> da Alura
+        </p>
+    </section>
+    <hr>
+    <section class="portifolio container" id="portifolio">
+        <h2>Portfólio</h2>
         <div class="grid">
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-f">
+                        <img class="img-portfolio" src="img/teste.png" alt="Teste Card">
+                        <figcaption>Teste Card</figcaption>
+                    </figure>
+                    <div class="card-b">
+                        Parte de tras
+                    </div>
+                </div>
+            </div>
+
             <figure>
                 <img class="img-portfolio" src="./img/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg"
                     alt="eCommerce">
                 <figcaption>eCommerce</figcaption>
             </figure>
+
             <figure>
                 <img class="img-portfolio" src="./img/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
                 <figcaption>Mobile</figcaption>
             </figure>
+
             <figure>
                 <img class="img-portfolio" src="./img/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
                 <figcaption>Web design</figcaption>
             </figure>
+
             <figure>
                 <img class="img-portfolio" src="./img/projpessoais-creditos-hal-gatewood-unsplash.jpg"
                     alt="Projetos pessoais">
                 <figcaption>Projetos pessoais</figcaption>
             </figure>
+
         </div>
     </section>
     <hr>
-    <section class="contato" id="contato">
+    <section class="contato container" id="contato">
         <h2>Contato</h2>
-        <div class="grid icons">
+        <div class="icons">
             <a target="_blank" href="https://github.com/Rolig4n">
                 <i class="fab fa-github"></i>
             </a>
