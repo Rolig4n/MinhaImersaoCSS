@@ -1,4 +1,17 @@
-#MinhaImersaoCSS Site criado durante a #imesãoCSS da Alura <br>
+# Imersão CSS
+
+Projeto de introdução ao desenvolvimento com CSS 
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Imersão CSS**
+| :label: Tecnologias | css, git
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+## Detalhes do projeto
+MinhaImersaoCSS Site criado durante a #imesãoCSS da Alura <br>
 --- <br>
 Versão 0.1-11/05/2020 <br>
 layout base definido, nenhuma midia inserida, css base<br>
